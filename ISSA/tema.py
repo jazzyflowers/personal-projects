@@ -113,8 +113,7 @@ while True:
     cv2.imshow('Top-Down', stretched)
     cv2.imshow('Filtered', filtered_frame)
     cv2.imshow('Binarized', binarized_frame)
-    cv2.imshow('Edge frame', edge_filtered_frame)
-    cv2.imshow('Lanes shown', lanes_frame)
+    #cv2.imshow('Lanes shown', lanes_frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
